@@ -46,4 +46,4 @@ android/keystores/debug.keystore
 # modules
 node_modules
 
-example
+*.env

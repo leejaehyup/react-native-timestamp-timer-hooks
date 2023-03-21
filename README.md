@@ -47,7 +47,8 @@ import { useTimer, useCountdown } from 'react-native-timestamp-timer-hooks';
 ```jsx
 import * as React from "react"
 import { StyleSheet, Text, TouchableOpacity, View } from 'react-native';
-import useTimer from '../hooks/useTimer';
+import { useTimer } from "react-native-timestamp-timer-hooks";
+import { formatTimeString } from './util';
 
 const Timer = () => {
   const { counter, start, stop, reset, isStart } = useTimer({
