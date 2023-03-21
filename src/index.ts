@@ -1,2 +1,2 @@
-export { useCountdown } from "./hooks/useCountdown";
-export { useTimer } from "./hooks/useTimer"
+export { useCountdown, IUseStopWatchParams } from './hooks/useCountdown';
+export { useTimer, IUseTimerParams } from './hooks/useTimer';

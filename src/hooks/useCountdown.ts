@@ -94,5 +94,3 @@ export const useCountdown = ({
 
   return { counter, start, stop, reset, isStart };
 };
-
-

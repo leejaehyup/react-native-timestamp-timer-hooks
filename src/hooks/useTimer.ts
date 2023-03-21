@@ -84,5 +84,3 @@ export const useTimer = ({
 
   return { counter, start, stop, reset, isStart };
 };
-
-
