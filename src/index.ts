@@ -1,3 +1,2 @@
-export * from './hooks/useCountdown';
-export * from './hooks/useTimer';
-export * from './util';
+export { useCountdown } from "./hooks/useCountdown";
+export { useTimer } from "./hooks/useTimer"

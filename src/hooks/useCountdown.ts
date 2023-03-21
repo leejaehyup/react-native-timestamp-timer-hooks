@@ -16,7 +16,7 @@ export interface IUseStopWatchParams {
  *
  * @returns { counter, start, stop, reset, isStart }
  */
-const useCountdown = ({
+export const useCountdown = ({
   from,
   to,
   interval = 50,
@@ -95,4 +95,4 @@ const useCountdown = ({
   return { counter, start, stop, reset, isStart };
 };
 
-export default useCountdown;
+

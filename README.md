@@ -18,7 +18,6 @@ The timer works even when the app is in the background. (unless the app is remov
 
 ## Getting started
 
----
 
 ```bash
 yarn add react-native-timestamp-timer-hooks
@@ -31,7 +30,6 @@ npm install react-native-timestamp-timer-hooks
 
 ## Import
 
----
 
 ```jsx
 import { useTimer, useCountdown } from 'react-native-timestamp-timer-hooks';
@@ -41,8 +39,6 @@ import { useTimer, useCountdown } from 'react-native-timestamp-timer-hooks';
 
 
 ## Usage
-
----
 
 <br>
 
@@ -98,7 +94,7 @@ Check out the [example project](example) for more examples.
 <br>
 
 ## Parameters
----
+
 The `useTimer`, `userCountdown`  hooks have the following parameters:
 
 <br>
@@ -114,7 +110,7 @@ The `useTimer`, `userCountdown`  hooks have the following parameters:
 <br>
 
 ## Return values
----
+
 The `useTimer`, `userCountdown` hooks have the following returns values:
 
 

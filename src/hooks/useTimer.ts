@@ -16,7 +16,7 @@ export interface IUseTimerParams {
  *
  * @returns { counter, start, stop, reset, isStart }
  */
-const useTimer = ({
+export const useTimer = ({
   from,
   to,
   interval = 50,
@@ -85,4 +85,4 @@ const useTimer = ({
   return { counter, start, stop, reset, isStart };
 };
 
-export default useTimer;
+
